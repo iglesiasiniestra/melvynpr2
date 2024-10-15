@@ -1,154 +1,59 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinister Church - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #1a1a1a;
-  color: #fff;
-  line-height: 1.6;
-}
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
 
-h1, h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
+    <!-- Menu Items -->
+    <ul id="menu" class="menu">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+      <li><a href="invitations.html"><i class="fas fa-ticket-alt"></i> Invitations</a></li>
+      <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Upcoming Events</a></li>
+    </ul>
 
-p {
-  margin-bottom: 20px;
-}
+    <!-- Language Button -->
+    <a href="https://iglesiasiniestra.org" class="language-button">
+      <i class="fas fa-globe"></i> Español
+    </a>
+  </div>
 
-a {
-  color: #ff6b6b;
-  text-decoration: none;
-}
+  <!-- Hero Section -->
+  <div class="hero" style="background-image: url('hero-image.jpg');">
+    <h1 class="hero-title">Welcome to Sinister Church</h1>
+  </div>
 
-a:hover {
-  text-decoration: underline;
-}
+  <!-- Who We Are Section -->
+  <section class="section">
+    <h2><i class="fas fa-users"></i> Who We Are</h2>
+    <p>"Sinister" can represent something outside the norm or breaking from tradition. This can be seen as a strength for those who reject conventional paths in favor of truth or deeper understanding. The Sinister Church is not about causing harm or promoting negative behavior. Instead, it is a community for truth-seekers. We help our members discover the light within them by embracing the shadows around us and offer a welcoming space for those who feel disconnected from traditional churches.</p>
+  </section>
 
-/* Navbar Styling */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
-}
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2024 Sinister Church. All rights reserved.</p>
+  </div>
 
-.navbar ul {
-  display: flex;
-  list-style-type: none;
-}
+  <!-- JavaScript to Toggle the Menu -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+  </script>
 
-.navbar ul li {
-  margin-right: 20px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.language-button {
-  padding: 10px 15px;
-  background-color: #ff6b6b;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* Hamburger Icon - Initially Hidden */
-.hamburger {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: white;
-}
-
-/* Responsive Menu */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .menu.active {
-    display: flex;
-  }
-
-  .menu li {
-    margin-bottom: 10px;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  .language-button {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-  }
-}
-
-/* Section Styling */
-.section {
-  padding: 50px;
-  background-color: #292929;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
-.section h2 {
-  color: #ff6b6b;
-  margin-bottom: 20px;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-}
-
-/* Hero Image */
-.hero {
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-title {
-  font-size: 3em;
-  color: #fff;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-/* Buttons */
-button {
-  padding: 10px 20px;
-  background-color: #ff6b6b;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #e65f5f;
-}
+</body>
+</html>
