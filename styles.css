@@ -29,6 +29,12 @@ body {
   display: flex;
 }
 
+.menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
 .language-button {
     display: block;
     width: 100%;
