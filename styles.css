@@ -35,11 +35,6 @@ body {
     align-items: flex-start;
   }
 
-.menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-  }
 
    .language-button {
     display: block;
