@@ -25,9 +25,7 @@ body {
 }
 
 /* Hide Menu on Small Screens */
-.menu {
-  display: flex;
-}
+
 
 @media (max-width: 768px) {
   .navbar {
