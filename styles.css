@@ -9,7 +9,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #1a1a1a;
   color: #fff;
-  line-height: 1.6;
 }
 
 /* Navbar Styling */
@@ -44,11 +43,6 @@ body {
   border-radius: 5px;
 }
 
-/* Hamburger Checkbox - Hidden */
-.menu-toggle {
-  display: none;
-}
-
 /* Hamburger Icon */
 .hamburger {
   display: none;
@@ -57,7 +51,7 @@ body {
   color: white;
 }
 
-/* Mobile Menu Display Logic */
+/* Hide Menu on Small Screens */
 .menu {
   display: flex;
 }
@@ -74,8 +68,7 @@ body {
     width: 100%;
   }
 
-  /* Checkbox is checked, display the menu */
-  .menu-toggle:checked + .hamburger + .menu {
+  .menu.active {
     display: flex;
   }
 
