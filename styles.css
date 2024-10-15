@@ -27,7 +27,7 @@ body {
 /* Hide Menu on Small Screens */
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
