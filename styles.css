@@ -41,6 +41,13 @@ body {
     width: 100%;
   }
 
+   .language-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
   
 a {
   color: #ff6b6b;
