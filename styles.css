@@ -26,10 +26,9 @@ body {
 
 /* Hide Menu on Small Screens */
 
- @media only screen (max-width: 768px) {
+ @media (max-width: 768px) {
   .navbar {flex-direction: column;
     align-items: center;
-    
   }
  
 
