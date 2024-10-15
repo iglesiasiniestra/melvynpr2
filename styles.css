@@ -23,6 +23,12 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
+
+/* Hide Menu on Small Screens */
+.menu {
+  display: flex;
+}
+
 .language-button {
     display: block;
     width: 100%;
