@@ -26,7 +26,10 @@ body {
 
 /* Hide Menu on Small Screens */
 
-
+ @media (max-width: 768px) {
+  .navbar {
+    
+  }
  
 
    .language-button {
