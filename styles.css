@@ -127,6 +127,20 @@ a {
   font-size: 1.5em;
 }
 
+.cta {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.cta:hover {
+  background-color: #e65f5f;
+}
+
 /* Section Styling */
 .section {
   max-width: 800px; /* Limit the width for better readability */
