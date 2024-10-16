@@ -83,7 +83,7 @@ body {
   }
 
   .menu-toggle:checked + .hamburger + .menu {
-    display: flex; MENU
+    display: flex;
   }
 
   .hamburger {
@@ -127,7 +127,7 @@ body {
   max-width: 800px; /* Limit the width for better readability */
   margin: 40px auto; /* Center the content */
   padding: 20px;
-  background-color: #292929;
+  background-color: #1A1A1A;
   border-radius: 10px;
 }
 
