@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1A1A1A;
+  background-color: #0D0D0D;
   padding: 10px 20px;
 }
 
@@ -127,7 +127,7 @@ body {
   max-width: 800px; /* Limit the width for better readability */
   margin: 40px auto; /* Center the content */
   padding: 20px;
-  background-color: #1A1A1A;
+  background-color: #0D0D0D;
   border-radius: 10px;
 }
 
@@ -150,6 +150,6 @@ body {
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #1A1A1A;
+  background-color: #0D0D0D;
   color: white;
 }
