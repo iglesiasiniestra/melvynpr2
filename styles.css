@@ -83,7 +83,7 @@ body {
   }
 
   .menu-toggle:checked + .hamburger + .menu {
-    display: flex;
+    display: flex; MENU
   }
 
   .hamburger {
