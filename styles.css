@@ -158,6 +158,11 @@ a {
   font-weight: bold;
 }
 
+.section p {
+  line-height: 1.6em;
+  font-size: 1.2em;
+}
+
 /* Padding for Footer and Hero */
 .hero, .section, .footer {
   padding: 40px;
