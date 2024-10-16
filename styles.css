@@ -148,16 +148,19 @@ a {
   padding: 20px;
   background-color: #0D0D0D;
   border-radius: 10px;
+  text-align: center
 }
 
 .section h2 {
   color: #ff6b6b; /* Change section title color */
   margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 /* Padding for Footer and Hero */
 .hero, .section, .footer {
-  padding: 20px;
+  padding: 40px;
 }
 
 .section p {
