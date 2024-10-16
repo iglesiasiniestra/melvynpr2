@@ -44,14 +44,13 @@ body {
 }
 
 .language-button {
-  padding: 8px 15px; /* Reduced padding for smaller size */
+  padding: 10px 15px;
   background-color: #ff6b6b;
-  color: #fff;
+  color: white;
+  text-decoration: none;
   border-radius: 5px;
-  font-size: 0.85em; /* Reduced font size */
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-right: 10px; /* Ensure there's spacing from the edge */
+  display: flex;
+  align-items: center;
 }
 
 .language-button i {
