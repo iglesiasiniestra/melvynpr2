@@ -138,7 +138,7 @@ body {
 
 /* Padding for Footer and Hero */
 .hero, .section, .footer {
-  padding: 40px;
+  padding: 0px;
 }
 
 .section p {
